@@ -2,24 +2,25 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
+  title: 'Alexia Allaway | Software Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hi, I am ',
+  name: 'Alexia Allaway',
+  subtitle: 'I am a Software Developer',
+  cta: 'Learn more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  paragraphOne: "Hello! I'm Alexia, a software engineer based in Atlanta, Ga.",
+  paragraphTwo:
+    'I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide performant experiences.',
   paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
@@ -28,12 +29,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'project1.jpg',
+    title: 'Astrola',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://rocky-river-07511.herokuapp.com/',
+    repo: 'https://github.com/allawa1/Astrola_', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -57,9 +58,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Would you like to work with me? Awesome!',
+  btn: "Let's Talk",
+  email: 'alexiaallaway@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,23 +68,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/alexia-allaway/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/allawa1',
     },
   ],
 };
