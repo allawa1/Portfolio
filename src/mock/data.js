@@ -31,28 +31,30 @@ export const projectsData = [
     id: nanoid(),
     img: 'project1.jpg',
     title: 'Astrola',
-    info: '',
-    info2: '',
+    info:
+      'Astrola is a web application where you can view Picture of The Day from Nasa Api dating back to 1995.',
+    info2: 'Built with React, Redux, CSS',
     url: 'https://rocky-river-07511.herokuapp.com/',
     repo: 'https://github.com/allawa1/Astrola_', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'memeOrator.png',
+    title: 'Meme-Orator',
+    info:
+      'Meme-Orator is a web application where you can search gifs and edit one by adding text. ',
+    info2: 'Built with HTML, CSS, Javascript',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/allawa1/Meme-Orator', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'pinster.png',
+    title: 'Pinster',
+    info: 'Post DIY Projects',
+    info2: 'Built with HTML,CSS, EJS, Javascript, Bootstrap, Node, Postgresql, Express, Passport',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/allawa1/Pinster', // if no repo, the button will not show up
   },
 ];
 
